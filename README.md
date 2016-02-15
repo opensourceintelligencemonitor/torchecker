@@ -5,9 +5,9 @@ Dependancys
 sudo apt-get install sqlite3 libsqlite3-dev -y
 sudo apt-get install lynx -y
 
-Then setup a cronjob like the following \n
-Downloads at 12 everyday \n
-0 12 * * * /location/to/script/torupdate.sh \n
-\n
-Also update the connectcheck.sh so if refers to your installed location \n
+Then setup a cronjob like the following
+Downloads at 12 everyday
+0 12 * * * /location/to/script/torupdate.sh
+
+Also update the connectcheck.sh so if refers to your installed location
 sqlite3 tor.db ".import /location/to/install/torexitnodes.txt IP"
