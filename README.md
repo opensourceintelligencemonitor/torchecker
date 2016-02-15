@@ -7,9 +7,9 @@ Deps
 
 Then setup a cronjob like the following
 		
-		0 12 * * * /location/to/script/torupdate.sh
+		0 0,4,8,12,16,20 * * * /location/to/script/torupdate.sh
 
-Also update the connectcheck.sh so if refers to your installed location
+Also update the config.sh so if refers to your installed location
 
-		DB="findme/tor/tor.db"
-		EXIT="findme/tor/torexitnotes.txt"
+		DB="/findme/tor/tordatabase.db"
+		EXIT="/findme/tor/2hs62s72.txt"
