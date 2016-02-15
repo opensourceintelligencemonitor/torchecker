@@ -11,5 +11,5 @@ Then setup a cronjob like the following
 
 Also update the config.sh so if refers to your installed location
 
-		DB="/findme/tor/tordatabase.db"
-		EXIT="/findme/tor/2hs62s72.txt"
+		DB="/(EDIT THIS)/tordatabase.db"
+		EXIT="/(EDIT THIS)/2hs62s72.txt"
