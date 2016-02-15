@@ -3,8 +3,7 @@ Keeps a database of known tor exit nodes. After you launch tor, run torcheck.sh 
 
 Deps
 
-		sudo apt-get install sqlite3 libsqlite3-dev -y
-		sudo apt-get install lynx -y
+		sudo apt-get install sqlite3 libsqlite3-dev -y && sudo apt-get install lynx -y
 
 Then setup a cronjob like the following
 		
