@@ -1,5 +1,5 @@
 # torchecker
-Keeps a database of known tor exit nodes and after you launch tor run the script to check your tor exit node status
+Keeps a database of known tor exit nodes. After you launch tor, run torcheck.sh to double check your covered by tor.
 
 Deps
 
