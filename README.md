@@ -8,8 +8,14 @@ Deps
 Then setup a cronjob like the following
 		
 		0 0,4,8,12,16,20 * * * /location/to/script/torupdate.sh
+		
+Update the torupdate.sh so when cronruns, it works fine.
+		
+		cd /XXXX/XXXX
 
 Also update the config.sh so if refers to your installed location
 
-		DB="/(EDIT THIS)/tordatabase.db"
-		EXIT="/(EDIT THIS)/2hs62s72.txt"
+		WRKLOC="/XXX/XXXX/torcheck"
+		DB="/XXX/XXXX/tordatabase.db"
+		EXIT="/XXX/XXXX/2hs62s72.txt"
+		
