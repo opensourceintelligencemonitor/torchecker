@@ -1,6 +1,6 @@
 #####################MAIN##############################
 ##############TOR DOWNLOAD DAILY#######################
-source $CON
+source config.sh
 cd $WRKLOK
 wget $EXITDL -O 1hs62s72.txt
 grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' 1hs62s72.txt > $EXIT
