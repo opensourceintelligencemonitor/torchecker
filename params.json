@@ -1,0 +1,6 @@
+{
+  "name": "Torchecker",
+  "tagline": "Keeps a database of known tor exit nodes and after you launch tor run the script to check your tor exit node status",
+  "body": "### Main Use.\r\nWhen your working with multiple dockers, images etc and you need to check if tor is enabled and working use this.\r\n\r\n### Quick configuration\r\nJust amend the config.sh and your in business\r\n\r\n### Authors and Contributors\r\nOSINTM\r\n\r\n### Support or Contact\r\nHaving trouble with it, drop me a line.\r\njixxen@zeroid.bit\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
