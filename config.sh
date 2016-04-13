@@ -1,3 +1,4 @@
+#!/bin/bash
 #########change the *LOCATION* below to relate to your install##############
 WRKLOC="/LOCATION/torcheck"
 DB="/LOCATION/tordatabase.db"
